@@ -4,9 +4,9 @@
   become: true
   vars:
     trusted_apps:
-      - path: "/usr/local/bin/cowsay"
+      #- path: "/usr/local/bin/cowsay"
         # v1.0.3
-        size: 2195456
-        checksum:
+        #size: 2195456
+        #checksum:
   roles:
     - { role: shaneboulden.fapolicyd }
