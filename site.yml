@@ -4,8 +4,5 @@
   become: true
   vars:
     trusted_apps:
-      - path: /home/ec2-user/cowsay
-        size: 2195456
-        checksum: "fc564f72acb1e84a64131d687ef5106dadcf410d03126638aca46e498d020ca6"
   roles:
     - { role: shaneboulden.fapolicyd }
