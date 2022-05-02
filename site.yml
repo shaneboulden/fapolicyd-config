@@ -2,6 +2,7 @@
 - name: Update fapolicyd configuration
   hosts: all
   become: true
+  gather_facts: false
   vars:
     trusted_apps:
   roles:
